@@ -1,0 +1,43 @@
+package countvisiblenodes;
+
+import java.util.Stack;
+
+public class CountVisibleNodes {
+	
+	Stack<Integer> maxs;
+
+	public CountVisibleNodes () {
+		maxs = new Stack<Integer>();
+	}
+
+	public static void main(String[] args) {
+    Tree t = new Tree(5, new Tree(3, new Tree(20, null, null), new Tree(21, null, null)), new Tree(10, new Tree(1, null, null), null));
+
+		CountVisibleNodes c = new CountVisibleNodes();
+		System.out.println(c.getVisibleNodeCount(t));        
+	}
+
+	public int getVisibleNodeCount (Tree tree) {
+		int count = 0;
+		if (tree == null) {
+			return count;
+		}			
+		
+		if (maxs.size() == 0) {
+			maxs.push(tree.getValue());
+		} 
+
+		 if (tree.getValue() >= maxs.peek() {
+			maxs.push(tree.getValue());
+			++count;
+		} 
+		
+		count = count + getVisibleNodeCount(tree.getLeft());
+		count = count + getVisibleNodeCount(tree.getRight());
+		
+		if (maxs.peek() == tree.getValue()) {
+			maxs.pop();		
+		}
+		return count;
+	}
+}
