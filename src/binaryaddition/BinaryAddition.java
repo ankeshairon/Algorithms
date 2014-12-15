@@ -8,7 +8,7 @@ package binaryaddition;
  */
 public class BinaryAddition {
     public static void main(String[] args) {
-        int[] a = new int[]{1, 2, 3};
+        int[] a = new int[]{1,4,5};
 
         StringBuilder k = new StringBuilder();
         for (int i = a[a.length - 1], pos = a.length - 1; i >= 0; i--) {
