@@ -1,4 +1,4 @@
-package towerofhanoi;
+package queueandstacks.towerofhanoi;
 
 import java.util.ArrayList;
 import java.util.List;

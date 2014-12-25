@@ -1,4 +1,4 @@
-package nthlastlistelement;
+package lists.nthlastlistelement;
 
 public class NthLastElementOfLinkedList {
 

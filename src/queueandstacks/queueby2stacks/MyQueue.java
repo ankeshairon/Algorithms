@@ -1,4 +1,4 @@
-package queueby2stacks;
+package queueandstacks.queueby2stacks;
 
 import java.util.Stack;
 

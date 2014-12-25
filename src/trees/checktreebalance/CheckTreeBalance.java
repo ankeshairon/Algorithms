@@ -1,4 +1,4 @@
-package checktreebalance;
+package trees.checktreebalance;
 
 public class CheckTreeBalance {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package setofstacks;
+package queueandstacks.setofstacks;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package findloopstart;
+package lists.findloopstart;
 
 /**
  * Given a circular linked list, implement an algorithm which returns node at the begin-

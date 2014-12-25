@@ -1,4 +1,4 @@
-package countvisiblenodes;
+package trees.countvisiblenodes;
 
 public class Tree {
     int value;

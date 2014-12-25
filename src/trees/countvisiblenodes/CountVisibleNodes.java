@@ -1,4 +1,4 @@
-package countvisiblenodes;
+package trees.countvisiblenodes;
 
 import java.util.Stack;
 
